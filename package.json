@@ -1,0 +1,44 @@
+{
+  "name": "kumu-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest --forceExit",
+    "test:watch": "jest --watch",
+    "start": "node start.js",
+    "start:local": "nodemon src/start.js",
+    "dev": "nodemon start.js"
+  },
+  "keywords": [],
+  "author": "otayotech",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.16.5",
+    "bcryptjs": "^2.4.3",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.4.3",
+    "express-validator": "^6.14.0",
+    "http-status": "^1.5.0",
+    "joi": "^17.10.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^5.9.22",
+    "nodemailer": "^6.9.7",
+    "pg": "^8.7.1",
+    "sequelize": "^7.0.0-alpha.2",
+    "sequelize-cli": "^6.3.0",
+    "serverless-http": "^2.7.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^27.3.0",
+    "supertest": "^6.1.6"
+  }
+}
